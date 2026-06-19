@@ -23,7 +23,6 @@ export default function Home() {
                         <em className="text-gold">Hoskins</em>
                     </h1>
                     <p className="text-base text-cream-muted max-w-sm leading-relaxed font-light">
-                        Design · Engineering · Experience<br />
                         Bridging design and code to build things that feel as good as they look.
                     </p>
                     <a href="#work" className="mt-2 text-xs tracking-[0.2em] uppercase text-gold border border-[rgba(200,180,120,0.4)] px-8 py-3 rounded-full hover:border-gold transition duration-300">
@@ -78,7 +77,7 @@ export default function Home() {
                             fill
                             className="object-cover object-top opacity-30 group-hover:opacity-40 transition duration-300"
                         />
-                        
+                        <div className="absolute inset-0 bg-background/60" />
                         <div className="absolute top-5 right-5">
                             <span className="text-xs tracking-[0.15em] uppercase text-gold border border-[rgba(200,180,120,0.3)] rounded-full px-3 py-1">✦ Featured</span>
                         </div>
@@ -97,6 +96,7 @@ export default function Home() {
                                 fill
                                 className="object-cover object-top opacity-30 group-hover:opacity-40 transition duration-300"
                             />
+                            <div className="absolute inset-0 bg-background/60" />
                             <div className="relative">
                                 <h3 className="font-serif text-2xl md:text-3xl text-cream font-light">Nearby Communities UX</h3>
                                 <p className="text-xs tracking-[0.1em] uppercase text-gold opacity-60 mt-2">UX Design · Figma · Frontend Dev</p>
@@ -110,6 +110,7 @@ export default function Home() {
                                 fill
                                 className="object-cover object-top opacity-30 group-hover:opacity-40 transition duration-300"
                             />
+                            <div className="absolute inset-0 bg-background/60" />
                             <div className="relative">
                                 <h3 className="font-serif text-2xl md:text-3xl text-cream font-light">Design System</h3>
                                 <p className="text-xs tracking-[0.1em] uppercase text-gold opacity-60 mt-2">HTML/CSS · Component Systems</p>
@@ -125,6 +126,7 @@ export default function Home() {
                             fill
                             className="object-cover object-top opacity-30 group-hover:opacity-40 transition duration-300"
                         />
+                        <div className="absolute inset-0 bg-background/60" />
                         <div className="relative">
                             <h3 className="font-serif text-2xl md:text-3xl text-cream font-light">Wardrobe Whimsy</h3>
                             <p className="text-xs tracking-[0.1em] uppercase text-gold opacity-60 mt-2">JavaScript · Canvas · Interactive UI</p>
