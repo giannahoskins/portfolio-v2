@@ -19,6 +19,9 @@ const dmSans = DM_Sans({
 export const metadata: Metadata = {
   title: "Gianna Hoskins — UX Engineer & Frontend Developer",
   description: "Frontend developer and UX engineer based in Las Vegas, building interfaces that live at the intersection of design craft and engineering.",
+  icons: {
+      icon: "/favicon.svg"
+  }
 };
 
 export default function RootLayout({
